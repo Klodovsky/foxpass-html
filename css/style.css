@@ -1608,7 +1608,9 @@ input[type=checkbox]:checked + label:before {
 .bi5{
     margin-top: 100px;
 }
-
+.bi6{
+    margin-top: 50px;
+}
 /* slick.css */
 /* Slider */
 .slick-slider {
@@ -8576,7 +8578,7 @@ footer {
 }
 
 .content-area-6 {
-    padding: 100px 0 50px;
+    padding: 140px 0 50px;
 }
 
 .content-area-7 {
@@ -9445,9 +9447,9 @@ footer {
 
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/car-1.png) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/car-3.png) top left repeat;
     background-size: cover;
-    height: 360px;
+    height: 135px;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -10446,6 +10448,9 @@ footer {
 
 .btn-w-100{
     width: 100%;
+}
+.btn-w-50{
+    width: 50%;
 }
 
 /** SHOP table **/
@@ -13432,7 +13437,11 @@ table {
         top: 0px !important;
     }
 }
-
+@media (max-width: 688px) {
+    .carousel-item>img {
+        max-height: 146px;
+    }
+}
 .center {
     margin: 0 auto;
     display: block;
@@ -13441,6 +13450,11 @@ table {
     margin-left: 40%;
     margin-right: 40%;
     margin-top: 8%;
+  }
+
+  .switch{
+    display: flex;
+    margin-top: -50px;
   }
 
 
