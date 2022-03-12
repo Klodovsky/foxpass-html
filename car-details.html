@@ -428,13 +428,20 @@
                                         <div class="col-md-12">
                                             <div class="form-floating mb-3">
                                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 30px"></textarea>
-                                                <label for="floatingTextarea2">Comments</label>
+                                                <label for="floatingTextarea2">Message for seller..</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="send-btn text-center">
-                                                <button type="button" class="btn btn-primary btn-4 btn-lg">Send Message</button>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"><div style="width: 305px;height: 80px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S&amp;co=aHR0cHM6Ly9ib290c3RyYXBpb3VzLmNvbTo0NDM.&amp;hl=en&amp;v=85AXn53af-oJBEtL2o2WpAjZ&amp;size=normal&amp;cb=2n4ex554ppjm" width="304" height="78" role="presentation" name="a-nsavkasmuxfw" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                                                <input class="form-control hidden" data-recaptcha="true" required="" data-error="Please complete the Captcha">
+                                                <div class="help-block with-errors"></div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4" style="padding: 32px 0px 0px 0px;margin: 0px 0px 0px 0px;float: left;">
+                                        <div class="send-btn text-center ">
+                                            <button type="button" class="btn btn-primary btn-4 btn-lg">Send Message</button>
                                         </div>
                                     </div>
                                 </div>
@@ -442,42 +449,35 @@
                                     <div class="contact-info-2">
                                         <div class="ci-box d-flex mb-3">
                                             <div class="icon">
+                                                <i class="flaticon-user-1"></i>
+                                            </div>
+                                            <div class="detail">
+                                                <h5>Seller</h5>
+                                                <h6>John Doe</h6>
+                                            </div>
+                                        </div>
+                                        <div class="ci-box d-flex  mb-3">
+                                            <div class="icon">
                                                 <i class="flaticon-phone"></i>
                                             </div>
                                             <div class="detail">
-                                                <h5>Phone:</h5>
-                                                <p><a href="#">+41 58 2551 177
-                                                </a></p>
+                                                <h5>Phone</h5>
+                                                <h6>+123456789</h6>
                                             </div>
                                         </div>
                                         <div class="ci-box d-flex  mb-3">
                                             <div class="icon">
-                                                <i class="flaticon-mail"></i>
+                                                <i class="flaticon-pin"></i>
                                             </div>
                                             <div class="detail">
-                                                <h5>Email:</h5>
-                                                <p><a href="mailto:info@foxpass.ch">info@foxpass.ch</a></p>
+                                                <h5>Address</h5>
+                                                <h6>Lugano 6900 Switzerland</h6>
                                             </div>
                                         </div>
-                                        <div class="ci-box d-flex  mb-3">
-                                            <div class="icon">
-                                                <i class="flaticon-earth"></i>
-                                            </div>
-                                            <div class="detail">
-                                                <h5>Web:</h5>
-                                                <p><a href="https://foxnfox.ch">www.foxnfox.ch</a></p>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="ci-box d-flex">
-                                            <div class="icon">
-                                                <i class="flaticon-fax"></i>
-                                            </div>
-                                            <div class="detail">
-                                                <h5>Fax:</h5>
-                                                <p><a href="#">+41 58 2551 177</a></p>
-                                            </div>
-                                        </div> -->
                                     </div>
+                                    <div class="responsive-map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44341.119247079034!2d8.918566501959!3d46.00480580229349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47842d8ddb970bbb%3A0xf07bb7ee1bac5419!2s6900%20Massagno%2C%20Switzerland!5e0!3m2!1sen!2stn!4v1647127042431!5m2!1sen!2stn" width="200" height="125" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                                        </div>
+                                 
                                 </div>
                             </div>
                         </form>
@@ -688,15 +688,6 @@
                                     <div class="price-box">
                                         <span class="del-2">$1050.00</span>
                                     </div>
-                                    <!-- <div class="ratings-2">
-                                        <span class="ratings-box">4.5/5</span>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star-o"></i>
-                                        ( 7 Reviews )
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -764,6 +755,7 @@
 <script  src="js/jnoty.js"></script>
 <script  src="js/sidebar.js"></script>
 <script  src="js/app.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script  src="js/ie10-viewport-bug-workaround.js"></script>
